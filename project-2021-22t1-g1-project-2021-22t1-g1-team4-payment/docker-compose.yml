@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+ ##################################
+ # Atomic Microservice: Payments
+ ##################################
+ payments:
+  build:
+   context: ./services/payments
+   dockerfile: Dockerfile
+   args:
+        - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+        - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+        - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
+        - FLASK_SECRET_KEY=${FLASK_SECRET_KEY}
+  container_name: payment
+  restart: always
+  env_file: 
+   - 'dev.env'
+  ports:
+   - "5005:5005"
+  environment:
+        - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+        - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+        - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
+        - FLASK_SECRET_KEY=${FLASK_SECRET_KEY}
+  network_mode: bridge
+

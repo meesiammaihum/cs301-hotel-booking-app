@@ -1,0 +1,178 @@
+
+.payment-container{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    color:#3E1414;
+    font-size: 20px;
+    width:60%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+
+.payment-mode{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.payment-mode label{
+    padding-left: 1%;
+}
+
+.customer-points{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.payment-cash, .payment-credit{
+    padding-top: 2%;
+}
+
+
+.booking-id, .booking-details, .guest-details{
+    color:#3E1414;
+    font-size: 23px;
+}
+
+.booking-details {
+    margin-bottom: 1%;
+}
+
+.room-info{
+    margin-top: 1%;
+}
+
+
+
+
+.form-container{
+    margin-left: 1%;
+}
+.form-container .field-container:first-of-type {
+    grid-area: name;
+}
+
+.form-container .field-container:nth-of-type(2) {
+    grid-area: number;
+}
+
+.form-container .field-container:nth-of-type(3) {
+    grid-area: expiration;
+}
+
+.form-container .field-container:nth-of-type(4) {
+    grid-area: security;
+}
+
+.field-container input  {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.field-container {
+    position: relative;
+}
+
+.form-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 90px 90px 90px;
+    grid-template-areas: "name name""number number""expiration security";
+    max-width: 400px;
+    padding: 20px;
+    color: #707070;
+}
+
+.bank{
+    width: 90%;
+    min-height:50px;
+  
+}
+
+.credit-card label {
+    padding-bottom: 5px;
+    font-size: 18px;
+    color:#434E74;
+    font-family: "rasa";
+}
+
+.credit-card input {
+    margin-top: 3px;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+}
+
+.payment-price-details{
+    background-color:white;
+    color:#3E1414;
+    margin: 2%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+.payment-price-container{
+    color: #434E74;
+}
+
+.payment-price, .payment-tax{
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.payment-room-price, .payment-tax-price, .payment-total-price{
+    float: right;
+    margin-right: 1%;
+}
+
+.payment-tax-price{
+    color: green;
+}
+
+hr{
+    border-top:rgba(0, 0, 0, 0.1)
+}
+    
+.payment-info{
+    background-color: white ;
+    position: relative;
+    float: right;
+    width:30vw;
+    margin-right: 3%;
+    font-size: 20px;
+    padding: 1%;
+    font-family: "Rasa";
+    color:#434E74;
+    margin-top: 1%;
+}
+
+.room-info{
+    margin-left: 20px;
+}
+
+.paymentButton{
+    color: #434E74;
+    background-color:rgba(252, 221, 236, 0.6) ;
+    border-radius: 8px;
+    float: right;
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+    font-family: 'Rasa';
+    right: 0;
+    margin-top:30em;
+    margin-right: 2%;
+    padding:10px;
+
+
+   
+}
+
+.hiddenButton{
+    display: none;
+}

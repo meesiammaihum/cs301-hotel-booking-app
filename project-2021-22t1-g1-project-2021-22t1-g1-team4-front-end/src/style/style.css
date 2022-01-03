@@ -1,0 +1,171 @@
+.background {
+    background:url(../images/background-image.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width:100vw;
+    height:100vh;
+
+
+}
+
+
+.topnav{
+    background: #E6DDEE;
+    font-size: 30px;
+    margin-top: 0%;
+    list-style-type: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #434E74;
+    font-family: 'Poppins';
+
+
+}
+
+.topnav li{
+    display:inline;
+  
+}
+
+.header{
+    font-weight: bold;
+    padding-left: 1%;
+}
+
+.navigation{
+    float: right;
+}
+
+.navigation li{
+    padding-right:30px;
+    padding-left:30px;
+}
+
+.navigation li a:link, .navigation li a:visited {
+    text-decoration: none;
+    color: #434E74;
+}
+
+
+
+::placeholder{
+    color:rgba(67, 78, 116, 0.3);
+}
+
+.selection p{
+    font-family: 'Rasa';
+    font-size: 21px;
+    color: #434E74;
+    margin-left: 1%;
+    position: relative;
+}
+
+.selection label{
+    font-size: 21px;
+    color: #434E74;
+    margin-left: 10px;
+}
+.radiogroup{
+    margin-left: 1%;
+    font-family: 'Rasa';
+    font-size: 21px;
+    color: #434E74;
+}
+
+.searchbox{
+    background-color:rgba(190, 223, 255, 0.75); 
+    position: absolute;
+    margin: 1%;
+    width: 98%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Rasa';
+}
+
+#destination_or_hotel{
+    margin-top: 1%;
+    padding-left: 1%;
+}
+
+#checkin, #checkout, #rooms{
+    padding-left: 1%;
+}
+#guests{
+    margin-left: 1%;
+    padding-left: 1%;
+}
+
+
+.searchbox input[type=text]{
+    border: none;
+    font-size: 25px;
+    background-color:rgba(252, 221, 236, 0.6);
+    width: 43%;
+    margin-left: 1%;
+    font-family: 'Rasa';
+}
+
+.searchbox ul{
+    display: inline;
+    list-style-type: none;
+
+}
+
+
+.searchbox ul input[type=text]{
+    border: none;
+    font-size: 25px;
+    background-color:rgba(252, 221, 236, 0.6);
+    width: 43%;
+    margin: 1%;
+    font-family: 'Rasa';
+    margin-left: 25px;
+    
+}
+
+.k-list, .k-nodata {
+    font-family: 'Rasa';
+    font-size: 25px;
+    margin-left: 25px;
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    line-height: 200%;
+}
+.searchbox ul input[type=date]{
+    border: none;
+    font-size: 25px;
+    background-color:rgba(252, 221, 236, 0.6);
+    width: 43%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: 'Rasa';
+    
+}
+
+.k-list, .k-nodata {
+    font-family: 'Rasa';
+    font-size: 25px;
+    margin-left: 25px;
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    line-height: 200%;
+}
+
+.HomePageButton{
+    color: #434E74;
+    background-color:rgba(252, 221, 236, 0.6) ;
+    border-radius: 8px;
+    float: right;
+    font-size: 23px;
+    margin-right: 1%;
+    font-size: 23px;
+    font-family: 'Rasa';
+    padding: 5px;
+}
+
+
+
+

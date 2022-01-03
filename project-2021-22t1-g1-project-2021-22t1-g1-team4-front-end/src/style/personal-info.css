@@ -1,0 +1,177 @@
+html {
+    font-family: 'Rasa';
+    background: #889BD3;
+}
+
+
+
+.main{
+    margin-top: 1%;
+}
+
+.personal-info, .special-request, .price-details{
+    background-color:rgba(255, 255, 255, 0.8);
+    color:#3E1414;
+    width:60%;
+    font-size: 20px;
+    margin-left: 1%;
+    position: absolute;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+
+.personal-info input, .special-request input{
+    border: none;
+    font-size: 18px;
+    width: 90%;
+    font-family: "Rasa";
+    padding: 12px 20px;
+
+}
+
+
+
+.contact-info{ 
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.contact-info input{
+    width: 20vw;
+}
+
+
+
+.email{
+    margin-left: 20%;
+}
+
+.special-request{
+    margin-top: 12em;
+}
+
+
+
+.price-details{
+    margin-top: 19em;
+}
+
+.price-details-container{
+    background-color: white;
+    color: #434E74;
+    margin-right: 2%;
+    
+}
+
+.total-price, .room-type, .tax{
+    margin-left: 1%;
+    padding-top: 1%;
+}
+
+.room-price{
+    float: right;
+    margin-right: 1%;
+
+}
+
+.total-price .room-price{
+    color: red;
+}
+
+
+hr{
+    border-top:rgba(0, 0, 0, 0.1)
+}
+    
+
+.tax{
+    margin-top: 1%;
+}
+
+.info{
+    background-color: white ;
+    position: relative;
+    float: right;
+    width:30vw;
+    margin-right: 3%;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.hotel-name{
+    color:#3E1414;
+    font-size: 23px;
+}
+
+.date{
+    padding-top: 10px;
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.8) ;
+    width:30vw;
+    color:#434E74 ;
+}
+
+
+.check-in, .check-out{
+    display: flex;
+    margin-left: 20%;
+}
+
+.check-in-date{
+    text-align: left;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+
+.check-out-date{
+    text-align: left;
+    margin-left: 16%;
+    margin-bottom: 1%;
+}
+
+time{
+    display: block;
+}
+
+.room-booked{
+    background-color: white;
+    text-align: left;
+    padding: 2%
+}
+
+
+.room{
+    color:#3E1414;
+}
+
+.guest-detail, .bed-detail{
+
+    padding-top: 10px;
+}
+.guest-bed{  
+    float: right;
+    margin-right: 10%;
+}
+
+
+.infoButton{
+    color: #434E74;
+    background-color:rgba(252, 221, 236, 0.6) ;
+    border-radius: 8px;
+    float: right;
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+    font-family: 'Rasa';
+    right: 0;
+    margin-top:30em;
+    margin-right: 1%;
+    padding:5px;
+
+   
+}

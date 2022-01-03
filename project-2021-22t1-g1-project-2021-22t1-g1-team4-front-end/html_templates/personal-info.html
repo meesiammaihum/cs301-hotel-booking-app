@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width">
+        <title>Ascenda</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href=style/personal-info.css rel="stylesheet">
+    </head>
+    <body>
+        <ul class = "topnav">
+            <li class="header">Ascenda</li>
+            <div class="navigation">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="login.html">Login</a></li>
+            </div>
+        </ul>
+        <main>
+        <div class="personal-info">
+            <p>Contact's name</p>
+            <input type=text placeholder="Your Name" >
+            <div class="contact-info">
+                <div class="mobile">
+                    <p>Reachable mobile number</p>
+                    <input type=tel placeholder="Your Mobile Number" >
+                </div>
+                <div class="email">
+                    <p >Contact's email address</p>
+                    <input type=email placeholder="Your Email" >
+                </div>
+            </div>
+        </div>
+        <div class="special-request">
+            <p>Special Request</p>
+            <input type=text placeholder="Special Request" >
+        </div>
+        <div class="price-details">
+            <p>Price Details</p>
+            <div class="price-details-container">
+                <div class=total-price>
+                    <label> Total</label>
+                    <label class=room-price> s$411.01</label>
+                </div>
+                <hr>
+                <div class="room-info">
+                    <div class="room-type" >
+                        <label> 1(x) Double Economy (1 Night)</label>
+                        <label class="price"> s$411.01</label>
+                    </div>
+                    <div class=tax>
+                        <label>Taxes and fees</label>
+                        <label class=price> s$0.00</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "info">
+            <label class="hotel-name">Hotel Splendide Royal</label>
+            <div class="date">
+                <div class="check-in">
+                    <label>Check-in</label>
+                    <div class="check-in-date">
+                        <time>Mon, 20 Dec 2021,</time> 
+                        <time>From 14:00</time>
+                    </div>
+                </div>
+                <div class="check-out">
+                    <label>Check-out</label>
+                    <div class="check-out-date">
+                        <time>Tue, 21 Dec 2021,</time> 
+                        <time>Before 11:00</time>
+                    </div>
+                </div> 
+                <div class="room-booked">
+                    <label class="room">1(x) Double Economy</label>
+                    <hr>
+                    <div class="guest-detail">
+                        <label>Guests per room</label>
+                        <label class='guest-bed'> 2 Guests</label>
+                    </div>
+                    <div class="bed-detail">
+                        <label>Bed Type</label>
+                        <label class='guest-bed'> 1 Double Economy</label>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+     
+        <button type="button" onclick="window.location.href='payment.html';">Proceed to payment</button>
+        
+        </main>
+    </body>
+</html>

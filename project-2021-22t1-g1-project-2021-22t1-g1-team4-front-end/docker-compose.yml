@@ -1,0 +1,17 @@
+version: "3.8"
+volumes:
+  rabbitmq_data:
+
+services:
+ ##################################
+ # User Interface: Admin Web
+ ##################################
+ admin0-web:
+  build:
+   context: .
+   dockerfile: Dockerfile
+  restart: always
+  ports:
+   - "80:3000"        
+
+

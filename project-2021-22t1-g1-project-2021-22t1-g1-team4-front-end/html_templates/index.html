@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width">
+        <title>Ascenda</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rasa&display=swap" rel="stylesheet">
+        <link href=../style/style.css rel="stylesheet">
+    </head>
+    <body>
+        <ul class = "topnav">
+            <li class="header">Ascenda</li>
+            <div class="navigation">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li> <a href="login.html">Login</a></li>
+            </div>
+        </ul>
+
+        <main>
+            <div class= "searchbox">
+                <input type=text placeholder="Destination/Hotel" >
+                <ul>
+                    <li>
+                        <input type=text placeholder="Check-in Date" onfocus="(this.type='date')">
+                        <input type=text placeholder="Check-out Date" onfocus="(this.type='date')">
+                        <input type=text placeholder="Number of Guest(s)">
+                        <input type=text placeholder="Number of Room(s)">
+                    </li>
+                </ul>
+                <button type="button" onclick="window.location.href='search-results.html';">Search</button>
+ 
+               
+            </div>
+        </main>
+    </body>
+</html>
